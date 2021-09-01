@@ -1,0 +1,168 @@
+*{
+	text-align:center;
+	height:auto;
+	
+}
+
+.container{
+	height:200vh;
+  background: #eee;
+  padding: 20px;
+}
+.image-container{
+  border: 2px solid black;
+  background: url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  opacity: 0.9;
+  
+  position: relative;
+  height:100%;
+}
+.first-txt {
+	position: absolute;
+	top: 15%;
+	left: 40%;
+	color:white;
+	
+ }
+  
+.second-txt {
+	position: absolute;
+	top: 60%;
+	left: 10%;
+	color:white;
+    margin-right:16%;
+    margin-left: 10%;
+}
+.p1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;;
+  }
+  .sm-p1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;;
+  }
+  .margin{
+   margin:10px;	
+  }
+  .white{
+      color:white;
+  }
+  .black{
+      background-color:#171616;
+  }
+  .blue{
+      color:#036aa4;
+  }
+  .blue-bg{
+      background-color: #036aa4;
+  }
+.container-item{
+	height:25%;
+   background: #eee;
+}
+.flex-container{
+	display:flex;
+	justify-content: center;
+}
+.flex-item{
+	margin:10px;
+}
+.right{
+	margin-right:20%;
+}
+.left{
+	margin-left:20%;
+}
+
+.card {
+ 
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin:20px 10px 20px 10px;
+  overflow:hidden;
+  background-color:white;
+  width:20%;
+  height:90%;
+  
+}
+
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card-img{
+	width:100% ;
+	height:40%;
+}
+
+.card-text {
+  padding: 2px 16px;
+}
+
+.card-container{
+	display:flex;
+	margin-top:15px;
+	background-color:rgba(15, 10, 10, 0.692);
+	justify-content: center;
+	flex-wrap: wrap;
+	height:30%
+	
+}
+
+.text-container{
+	display:flex;
+	flex-wrap:wrap;
+}
+.flex-text{
+	flex:1;
+	
+}
+.flex-col{
+	flex-direction:column;
+}
+.dark{
+	background-color:#313131
+}
+
+
+/* read more */
+.stage {
+    margin-top: 21%;
+    text-align:center;
+
+
+}
+    a {
+      line-height:1em;
+      letter-spacing:0.06em;
+      font-family: 'Lato', sans-serif;
+      font-weight:normal;
+      font-size:16px;
+      text-decoration:none;
+      color:#fff;
+      background:#231f20;
+      display:inline-block;
+      padding:15px 12px 15px 15px;
+      transition:background 200ms;
+      border-radius:4px;
+      
+    }
+    a:hover {
+      background:#cea052;
+    }
+    a:after {
+      font-family: 'FontAwesome', sans-serif;
+      font-weight:300;
+      content: "\f105";
+      margin-left:20px;
+      color:#cea052;
+      font-size:18px;
+      vertical-align:middle;
+      transition:color 200ms;
+    }
+    
+    a:hover:after {
+      color:#231f20;
+    }
